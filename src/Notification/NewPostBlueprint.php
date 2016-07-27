@@ -60,7 +60,7 @@ class NewPostBlueprint implements BlueprintInterface, MailableInterface
      */
     public function getEmailView()
     {
-        return ['text' => 'flarum-subscriptions::emails.newPost'];
+        return ['html' => 'flarum-subscriptions::emails.newPost'];
     }
 
     /**
